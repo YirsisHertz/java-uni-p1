@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract constant &apos;SCANNER&apos; from expression &apos;new Scanner(System.in)&apos;&#x0A;- Original project: &apos;com.hzcode.uni.ejercicio5&apos;&#x0A;- Constant name: &apos;SCANNER&apos;&#x0A;- Constant expression: &apos;new Scanner(System.in)&apos;&#x0A;- Declared visibility: &apos;private&apos;&#x0A;- Replace occurrences of expression with constant" description="Extract constant &apos;SCANNER&apos;" flags="786432" id="org.eclipse.jdt.ui.extract.constant" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;ejercicio5{Juego.java" name="SCANNER" qualify="false" replace="true" selection="241 22" stamp="1614101272576" version="1.0" visibility="2"/>
+</session>

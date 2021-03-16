@@ -1,0 +1,24 @@
+package ejercicio3;
+
+import java.util.Scanner;
+
+public class Ejercicio {
+
+	public static void main(String[] args) {
+
+		float opcion1, opcion2;
+
+		Scanner scanner = new Scanner(System.in);
+
+		System.out.print("Ingresa el primer valor: ");
+		opcion1 = scanner.nextFloat();
+
+		System.out.print("Ingresa el segundo valor: ");
+		opcion2 = scanner.nextFloat();
+
+		float mensaje = (opcion1 > opcion2) ? opcion1 : opcion2;
+		
+		
+	}
+
+}

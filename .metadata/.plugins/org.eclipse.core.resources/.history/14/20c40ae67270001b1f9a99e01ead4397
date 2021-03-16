@@ -1,0 +1,20 @@
+package com.hzcode.uni.ejercicio1;
+
+/**
+ * 
+ * @author Yirsis Serrano
+ * @version 1.0.0
+ * 
+ */
+public class AreaTriangulo {
+	private final double base, altura;
+
+	public AreaTriangulo(double base, double altura) {
+		this.base = base;
+		this.altura = altura;
+	}
+
+	public Double areaTriangulo() {o
+		return (base * altura) / 2;
+	}
+}

@@ -1,0 +1,38 @@
+package dia_semana;
+
+import javax.swing.JOptionPane;
+
+public class Dia {
+
+	public static void main(String[] args) {
+		String[] dias = { "Lunes", "Martes", "Miercoles", "Jueves", "Viernes", "Sabado", "Domingo" };
+
+		String seleccion = JOptionPane.showInputDialog("Selecciona un número entre el 1 y el 7: ");
+
+		try {
+			int opcion = Integer.parseInt(seleccion);
+
+			if (opcion <= 0 || opcion > dias.length) {
+
+				System.err.println("Seleccion Invalida...");
+				System.exit(0);
+			}
+
+			for (int i = 1; i <= opcion; i++) {
+
+				if (i == opcion) {
+					System.out.println("El día es " + dias[i - 1]);
+
+				} else {
+					System.gc();
+				}
+			}
+
+		} catch (Exception e) {
+			System.err.println("Seleccion Invalida...");
+			System.exit(0);
+		}
+
+	}
+
+}
